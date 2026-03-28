@@ -176,3 +176,14 @@ imprimir_linhas([pessoa(N,Moch,Mes,Jogo,Mat,Suco)|T], Pos) :-
            [Pos, N, Moch, Mes, Jogo, Mat, Suco]),
     Pos1 is Pos + 1,
     imprimir_linhas(T, Pos1).
+
+main :-
+    statistics(cputime, T1),
+
+    solucao(S),
+    imprimir(S),
+
+    statistics(cputime, T2),
+
+    Tempo is T2 - T1,
+    format('~nO tempo de execucao foi ~6f segundos~n', [Tempo]).
