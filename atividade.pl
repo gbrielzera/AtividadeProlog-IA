@@ -37,7 +37,7 @@ solucao(S) :-
     % Na terceira posicao esta quem gosta de suco de Morango
     nth1(3, S, pessoa(_,_,_,_,_, 'Morango')),
 
-    % Lenin está na quinta posicao
+    % Lenin está na quinta posiçao
     nth1(5, S, pessoa('Lenin',_,_,_,_,_)),
 
     % Quem gosta de jogo da forca esta na posicao 3
