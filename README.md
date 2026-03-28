@@ -20,3 +20,8 @@ Depois a mesma lógica foi implementada no Prolog:
 
 
 Por fim, foi criada uma função para exibir os resultados numa tabela.
+
+<img width="590" height="440" alt="image" src="https://github.com/user-attachments/assets/faf1ce41-1201-4b52-ac20-92dfc7f59bd3" />
+
+<img width="576" height="105" alt="image" src="https://github.com/user-attachments/assets/ab772f0a-c415-4d7c-a6e1-0f1ab5d29db0" />
+
